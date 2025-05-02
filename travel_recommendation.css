@@ -2,9 +2,29 @@
     background-image: url("https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?t=st=1746120923~exp=1746124523~hmac=a9a4f76d62c088ce8d9a2568932b9eb3b93de8336272a7bf85cf835ed89af3d1&w=1380");
     background-size: cover;
 }
-.nav-links {
+/*.nav-links {
     display: flex;
     flex-direction: row;
     -ms-flex-align: center;
     gap: 20px;
+}
+*/
+.logo-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.serach-button {
+    background-color: #a26ad6;
+    color: white;
+    border-radius: 2px;
+}
+
+.search {
+    background-color: white;
+    color: rgba(0, 0, 255, 0.993);
+    border-radius: 20px;
+    border-width: 20px;
+    border-color: black;
 }
